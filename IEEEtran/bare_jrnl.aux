@@ -1,0 +1,124 @@
+\relax 
+\bibstyle{unsrt}
+\citation{lingemann2005high}
+\citation{csorba1997simultaneous}
+\citation{fox1999monte}
+\citation{aghili2016robust}
+\citation{williams2007real}
+\citation{williams2007real}
+\citation{kendall2015posenet}
+\citation{szegedy2015going}
+\citation{kuse2019learning}
+\@writefile{toc}{\contentsline {section}{\numberline {I}Introduction}{1}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces  System overview of the proposed relocation algorithm for robot relocalization indoors. The laser data is processed into RGB image and occupancy grid map. The image and map were superpose into 6-channel image,while 3 6-channel images,which represent laser data t-1,t,t+1respectively, were superpose into a 12-channel image.The 12-channel image is used as the input of a convolutional neural network(CNN),while the output is a 3-DOF posture including pose and orientation. }}{1}}
+\newlabel{fig:frame}{{1}{1}}
+\citation{lim2000mobile}
+\citation{yang2019rapid}
+\citation{castellanos1997building}
+\citation{mur2015orb}
+\citation{mur2017orb}
+\citation{engel2014lsd}
+\citation{yang2016pop}
+\citation{mur2017visual}
+\citation{thrun2005probabilistic}
+\citation{kalman1960new}
+\citation{bailey2006consistency}
+\citation{martinez2005unscented}
+\citation{sim2006design}
+\citation{thrun2005probabilistic}
+\citation{kalman1960new}
+\citation{bailey2006consistency}
+\citation{martinez2005unscented}
+\citation{robert2013monte}
+\citation{kendall2015posenet}
+\citation{kuse2019learning}
+\citation{zhou2017unsupervised}
+\citation{yin2018synchronous}
+\citation{chen2017deep}
+\citation{li2017deep}
+\citation{kohlbrecher2011flexible}
+\citation{li2017deep}
+\@writefile{toc}{\contentsline {section}{\numberline {II}relate works}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-A}}Robots Relocation Indoors}{2}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces  System overview of 2D-laser processor We process three frames of continuous laser datas,every single-frame 2D-laser data was processed into a RGB image and an occupancy grid map.The image and map were superpose into 6-channel image,while 3 6-channel images,which represent laser data $t-1$,$t$,$t+1$respectively, were superpose into a 18-channel image.The 18-channel image is used as the input of a convolutional neural network(CNN).}}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {II-B}}Deep Learning based Robots Relocation Indoors }{2}}
+\@writefile{toc}{\contentsline {section}{\numberline {III}system overview}{2}}
+\@writefile{toc}{\contentsline {section}{\numberline {IV}CNN based relocation system}{2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-A}}2D-laser Processor}{2}}
+\citation{xu2015empirical}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces  Architecture of the CNN network in proposed data fusion system. The network consists of five 2D convolutional layers with three fully connected layers.The output of the network is the 3-DOF posture including pose and orientation }}{3}}
+\newlabel{fig:curl1}{{3}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-B}}CNN based Pose Regression}{3}}
+\@writefile{lot}{\contentsline {table}{\numberline {I}{\ignorespaces  Configuration of the CNN}}{3}}
+\newlabel{tabCNN}{{I}{3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {IV-C}}Cost Function }{3}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces  Illustration of the way to calculate the errors between the predicted location and the ground truth. }}{3}}
+\newlabel{fig:cost}{{4}{3}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {IV-C}1}Pose error }{3}}
+\citation{thrun2005probabilistic}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {\unhbox \voidb@x \hbox {IV-C}2}Orientation error }{4}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {\unhbox \voidb@x \hbox {IV-C}2a}quaternions}{4}}
+\newlabel{eq:loss1}{{2}{4}}
+\@writefile{toc}{\contentsline {paragraph}{\numberline {\unhbox \voidb@x \hbox {IV-C}2b}angle}{4}}
+\newlabel{eq:loss2}{{3}{4}}
+\newlabel{eq:out}{{4}{4}}
+\@writefile{toc}{\contentsline {section}{\numberline {V}Experiment Results}{4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces The setup of the mobile robot equipped with a Hokuyo laser scanner.}}{4}}
+\newlabel{fig:robot}{{5}{4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Priori map \uppercase {i} of the real environment used to collect the data set.The white pixels represent the area without obstacles,the black pixels represent areas with obstacles and the gray pixels represent unknown area.}}{4}}
+\newlabel{fig:map1}{{6}{4}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Priori map \uppercase {ii} of the real environment used to collect the data set.The white pixels represent the area without obstacles,the black pixels represent areas with obstacles and the gray pixels represent unknown area.}}{4}}
+\newlabel{fig:map2}{{7}{4}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-A}}Dataset and Training}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Magnified view of a sequence of training (red) and testing (blue) data for scene \uppercase {i}. We show the predicted robot pose in green for each testing frame. This shows our system can interpolate robot pose effectively in space between training frames.}}{5}}
+\newlabel{fig:point}{{8}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces  shows the poses selected to test both particle filter algorithm and \textbf  {Relocation-Net}.}}{5}}
+\newlabel{fig:testpoint1}{{9}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces System overview of the Improved relocation algorithm for robot relocalization indoors. Part regression is used to predict robot pose. Part classification is used to distinguish the scene robot in.}}{5}}
+\newlabel{fig:net2}{{10}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces System overview of the Improved relocation algorithm for robot relocalization indoors. Part regression is used to predict robot pose. Part classification is used to distinguish the scene robot in.}}{5}}
+\newlabel{fig:fc}{{11}{5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-B}}System Performance}{5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-C}}Different Forms of the Input}{5}}
+\@writefile{lot}{\contentsline {table}{\numberline {II}{\ignorespaces  System performance in environment \uppercase {i}}}{6}}
+\newlabel{tablemap1}{{II}{6}}
+\@writefile{lot}{\contentsline {table}{\numberline {III}{\ignorespaces  System performance in environment \uppercase {ii}}}{6}}
+\newlabel{tablemap2}{{III}{6}}
+\@writefile{lot}{\contentsline {table}{\numberline {IV}{\ignorespaces  Different forms of CNN Input in Scene \uppercase {i}}}{6}}
+\newlabel{tabchan1}{{IV}{6}}
+\@writefile{lot}{\contentsline {table}{\numberline {V}{\ignorespaces  Different forms of CNN Input in Scene \uppercase {ii}}}{6}}
+\newlabel{tabchan2}{{V}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-D}}Multi-scene Mixed Training}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-E}}Real-Time Performance}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {\unhbox \voidb@x \hbox {V-F}}Discussion}{6}}
+\@writefile{toc}{\contentsline {section}{\numberline {VI}Conclusion and future work}{6}}
+\bibdata{wenxian}
+\bibcite{lingemann2005high}{1}
+\bibcite{csorba1997simultaneous}{2}
+\bibcite{fox1999monte}{3}
+\bibcite{aghili2016robust}{4}
+\bibcite{williams2007real}{5}
+\bibcite{kendall2015posenet}{6}
+\bibcite{szegedy2015going}{7}
+\bibcite{kuse2019learning}{8}
+\bibcite{lim2000mobile}{9}
+\bibcite{yang2019rapid}{10}
+\bibcite{castellanos1997building}{11}
+\bibcite{mur2015orb}{12}
+\bibcite{mur2017orb}{13}
+\bibcite{engel2014lsd}{14}
+\bibcite{yang2016pop}{15}
+\bibcite{mur2017visual}{16}
+\bibcite{thrun2005probabilistic}{17}
+\bibcite{kalman1960new}{18}
+\bibcite{bailey2006consistency}{19}
+\bibcite{martinez2005unscented}{20}
+\bibcite{sim2006design}{21}
+\bibcite{robert2013monte}{22}
+\bibcite{zhou2017unsupervised}{23}
+\bibcite{yin2018synchronous}{24}
+\bibcite{chen2017deep}{25}
+\bibcite{li2017deep}{26}
+\bibcite{kohlbrecher2011flexible}{27}
+\bibcite{xu2015empirical}{28}
+\@writefile{toc}{\contentsline {section}{References}{7}}

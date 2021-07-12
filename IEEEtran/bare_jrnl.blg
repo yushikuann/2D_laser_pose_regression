@@ -1,0 +1,51 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: bare_jrnl.aux
+The style file: unsrt.bst
+Database file #1: wenxian.bib
+Repeated entry---line 124 of file wenxian.bib
+ : @article{yang2019rapid
+ :                       ,
+I'm skipping whatever remains of this entry
+You've used 28 entries,
+            1791 wiz_defined-function locations,
+            612 strings with 9132 characters,
+and the built_in function-call counts, 8725 in all, are:
+= -- 837
+> -- 354
+< -- 16
++ -- 128
+- -- 100
+* -- 561
+:= -- 1247
+add.period$ -- 94
+call.type$ -- 28
+change.case$ -- 25
+chr.to.int$ -- 0
+cite$ -- 28
+duplicate$ -- 422
+empty$ -- 830
+format.name$ -- 100
+if$ -- 2052
+int.to.chr$ -- 0
+int.to.str$ -- 28
+missing$ -- 29
+newline$ -- 143
+num.names$ -- 28
+pop$ -- 113
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 257
+stack$ -- 0
+substring$ -- 679
+swap$ -- 174
+text.length$ -- 16
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 87
+width$ -- 30
+write$ -- 318
+(There was 1 error message)

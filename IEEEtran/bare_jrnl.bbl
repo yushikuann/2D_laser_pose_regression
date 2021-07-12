@@ -1,0 +1,170 @@
+\begin{thebibliography}{10}
+
+\bibitem{lingemann2005high}
+Kai Lingemann, Andreas N{\"u}chter, Joachim Hertzberg, and Hartmut Surmann.
+\newblock High-speed laser localization for mobile robots.
+\newblock {\em Robotics and autonomous systems}, 51(4):275--296, 2005.
+
+\bibitem{csorba1997simultaneous}
+Michael Csorba.
+\newblock {\em Simultaneous localisation and map building}.
+\newblock PhD thesis, University of Oxford Oxford, 1997.
+
+\bibitem{fox1999monte}
+Dieter Fox, Wolfram Burgard, Frank Dellaert, and Sebastian Thrun.
+\newblock Monte carlo localization: Efficient position estimation for mobile
+  robots.
+\newblock {\em AAAI/IAAI}, 1999(343-349):2--2, 1999.
+
+\bibitem{aghili2016robust}
+Farhad Aghili and Chun-Yi Su.
+\newblock Robust relative navigation by integration of icp and adaptive kalman
+  filter using laser scanner and imu.
+\newblock {\em IEEE/ASME Transactions on Mechatronics}, 21(4):2015--2026, 2016.
+
+\bibitem{williams2007real}
+Brian~Patrick Williams, Georg Klein, and Ian~D Reid.
+\newblock Real-time slam relocalisation.
+\newblock In {\em ICCV}, volume~7, pages 1--8, 2007.
+
+\bibitem{kendall2015posenet}
+Alex Kendall, Matthew Grimes, and Roberto Cipolla.
+\newblock Posenet: A convolutional network for real-time 6-dof camera
+  relocalization.
+\newblock In {\em Proceedings of the IEEE international conference on computer
+  vision}, pages 2938--2946, 2015.
+
+\bibitem{szegedy2015going}
+Christian Szegedy, Wei Liu, Yangqing Jia, Pierre Sermanet, Scott Reed, Dragomir
+  Anguelov, Dumitru Erhan, Vincent Vanhoucke, and Andrew Rabinovich.
+\newblock Going deeper with convolutions.
+\newblock In {\em Proceedings of the IEEE conference on computer vision and
+  pattern recognition}, pages 1--9, 2015.
+
+\bibitem{kuse2019learning}
+Manohar Kuse and Shaojie Shen.
+\newblock Learning whole-image descriptors for real-time loop detection
+  andkidnap recovery under large viewpoint difference.
+\newblock {\em arXiv preprint arXiv:1904.06962}, 2019.
+
+\bibitem{lim2000mobile}
+Jong~Hwan Lim and John~J. Leonard.
+\newblock Mobile robot relocation from echolocation constraints.
+\newblock {\em IEEE Transactions on pattern analysis and machine intelligence},
+  22(9):1035--1041, 2000.
+
+\bibitem{yang2019rapid}
+Guanci Yang, Zhanjie Chen, Yang Li, and Zhidong Su.
+\newblock Rapid relocation method for mobile robot based on improved orb-slam2
+  algorithm.
+\newblock {\em Remote Sensing}, 11(2):149, 2019.
+
+\bibitem{castellanos1997building}
+Jos{\'e}~A Castellanos, Juan~D Tard{\'o}s, and G{\"u}nther Schmidt.
+\newblock Building a global map of the environment of a mobile robot: The
+  importance of correlations.
+\newblock In {\em Proceedings of International Conference on Robotics and
+  Automation}, volume~2, pages 1053--1059. IEEE, 1997.
+
+\bibitem{mur2015orb}
+Raul Mur-Artal, Jose Maria~Martinez Montiel, and Juan~D Tardos.
+\newblock Orb-slam: a versatile and accurate monocular slam system.
+\newblock {\em IEEE transactions on robotics}, 31(5):1147--1163, 2015.
+
+\bibitem{mur2017orb}
+Raul Mur-Artal and Juan~D Tard{\'o}s.
+\newblock Orb-slam2: An open-source slam system for monocular, stereo, and
+  rgb-d cameras.
+\newblock {\em IEEE Transactions on Robotics}, 33(5):1255--1262, 2017.
+
+\bibitem{engel2014lsd}
+Jakob Engel, Thomas Sch{\"o}ps, and Daniel Cremers.
+\newblock Lsd-slam: Large-scale direct monocular slam.
+\newblock In {\em European conference on computer vision}, pages 834--849.
+  Springer, 2014.
+
+\bibitem{yang2016pop}
+Shichao Yang, Yu~Song, Michael Kaess, and Sebastian Scherer.
+\newblock Pop-up slam: Semantic monocular plane slam for low-texture
+  environments.
+\newblock In {\em 2016 IEEE/RSJ International Conference on Intelligent Robots
+  and Systems (IROS)}, pages 1222--1229. IEEE, 2016.
+
+\bibitem{mur2017visual}
+Ra{\'u}l Mur-Artal and Juan~D Tard{\'o}s.
+\newblock Visual-inertial monocular slam with map reuse.
+\newblock {\em IEEE Robotics and Automation Letters}, 2(2):796--803, 2017.
+
+\bibitem{thrun2005probabilistic}
+Sebastian Thrun, Wolfram Burgard, and Dieter Fox.
+\newblock {\em Probabilistic robotics}.
+\newblock MIT press, 2005.
+
+\bibitem{kalman1960new}
+Rudolph~Emil Kalman.
+\newblock A new approach to linear filtering and prediction problems.
+\newblock {\em Journal of basic Engineering}, 82(1):35--45, 1960.
+
+\bibitem{bailey2006consistency}
+Tim Bailey, Juan Nieto, Jose Guivant, Michael Stevens, and Eduardo Nebot.
+\newblock Consistency of the ekf-slam algorithm.
+\newblock In {\em 2006 IEEE/RSJ International Conference on Intelligent Robots
+  and Systems}, pages 3562--3568. IEEE, 2006.
+
+\bibitem{martinez2005unscented}
+Ruben Martinez-Cantin and Jos{\'e}~A Castellanos.
+\newblock Unscented slam for large-scale outdoor environments.
+\newblock In {\em 2005 IEEE/RSJ International Conference on Intelligent Robots
+  and Systems}, pages 3427--3432. IEEE, 2005.
+
+\bibitem{sim2006design}
+Robert Sim, Pantelis Elinas, Matt Griffin, Alex Shyr, and James~J Little.
+\newblock Design and analysis of a framework for real-time vision-based slam
+  using rao-blackwellised particle filters.
+\newblock In {\em The 3rd Canadian Conference on Computer and Robot Vision
+  (CRV'06)}, pages 21--21. IEEE, 2006.
+
+\bibitem{robert2013monte}
+Christian Robert and George Casella.
+\newblock {\em Monte Carlo statistical methods}.
+\newblock Springer Science \& Business Media, 2013.
+
+\bibitem{zhou2017unsupervised}
+Tinghui Zhou, Matthew Brown, Noah Snavely, and David~G Lowe.
+\newblock Unsupervised learning of depth and ego-motion from video.
+\newblock In {\em Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition}, pages 1851--1858, 2017.
+
+\bibitem{yin2018synchronous}
+Peng Yin, Yuqing He, Lingyun Xu, Yan Peng, Jianda Han, and Weiliang Xu.
+\newblock Synchronous adversarial feature learning for lidar based loop closure
+  detection.
+\newblock In {\em 2018 Annual American Control Conference (ACC)}, pages
+  234--239. IEEE, 2018.
+
+\bibitem{chen2017deep}
+Zetao Chen, Adam Jacobson, Niko S{\"u}nderhauf, Ben Upcroft, Lingqiao Liu,
+  Chunhua Shen, Ian Reid, and Michael Milford.
+\newblock Deep learning features at scale for visual place recognition.
+\newblock In {\em 2017 IEEE International Conference on Robotics and Automation
+  (ICRA)}, pages 3223--3230. IEEE, 2017.
+
+\bibitem{li2017deep}
+Jiaxin Li, Huangying Zhan, Ben~M Chen, Ian Reid, and Gim~Hee Lee.
+\newblock Deep learning for 2d scan matching and loop closure.
+\newblock In {\em 2017 IEEE/RSJ International Conference on Intelligent Robots
+  and Systems (IROS)}, pages 763--768. IEEE, 2017.
+
+\bibitem{kohlbrecher2011flexible}
+Stefan Kohlbrecher, Oskar Von~Stryk, Johannes Meyer, and Uwe Klingauf.
+\newblock A flexible and scalable slam system with full 3d motion estimation.
+\newblock In {\em 2011 IEEE International Symposium on Safety, Security, and
+  Rescue Robotics}, pages 155--160. IEEE, 2011.
+
+\bibitem{xu2015empirical}
+Bing Xu, Naiyan Wang, Tianqi Chen, and Mu~Li.
+\newblock Empirical evaluation of rectified activations in convolutional
+  network.
+\newblock {\em arXiv preprint arXiv:1505.00853}, 2015.
+
+\end{thebibliography}
